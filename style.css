@@ -1,0 +1,117 @@
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+  
+    text-align: center;
+}
+
+.faq-container{
+/* 0-top and bottom, auto-->left and right */
+margin: 0 auto;
+max-width: 600px;
+}
+
+.faq{
+    border: 1px solid gray;
+    max-width: 600px;
+    margin: 30px 0;
+    padding: 20 px;
+    display: flex;
+    transition: 0.3s ease;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.faq.active{
+    background-color: white;
+}
+
+
+.faq-text{
+    display: none;
+}
+
+.faq.active .faq-text{
+    display: block;
+}
+
+
+.faq-toggle{
+   background-color: transparent;
+   border: none;
+   outline: 0;
+   cursor: pointer;
+   width: 30px;
+   height: 30px;
+   
+}
+
+.faq-toggle .fa-times{
+    display: none;
+    border: none;
+}
+
+.faq.active .faq-toggle .fa-times{
+    color: #fff;
+    display: block;
+  
+}
+
+
+.faq.active .faq-toggle .fa-chevron-down{
+    display: none;
+  
+}
+
+.faq.active .faq-toggle{
+    background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
